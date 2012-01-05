@@ -46,7 +46,7 @@ class Cache_File extends Cache {
 	// THIS CONSTANT IS USED BY THE FILE CACHE CLASS
 	// INTERNALLY. USE THE CONFIGURATION FILE TO
 	// REDEFINE THE CACHE DIRECTORY.
-	const CACHE_DIR = 'cache/kohana_cache';
+	const CACHE_DIR = 'cache';
 
 	/**
 	 * Creates a hashed filename based on the string. This is used
